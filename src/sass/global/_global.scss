@@ -1,0 +1,18 @@
+body {
+  font-family: $fontTextPrimary;
+  font-weight: 400;
+  font-size: 16px;
+  color: $colorTextPrimary;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1340px;
+}
+
+.button {
+  border-radius: 5px;
+  background: $colorTextTertiary;
+  color: $colorTextAdditional;
+  text-align: center;
+}
