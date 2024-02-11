@@ -1,0 +1,21 @@
+.services{
+    &__title{
+        font-weight: 600;
+        font-size: 24px;
+    }
+}
+.case{
+    &__title{
+        font-weight: 600;
+        font-size: 18px;
+        color: $colorTextAccent;
+    }
+    &__text{
+        text-align: center; 
+        color: $colorTextSecondary;
+    }
+    &__fare{
+        font-size: 18px;
+        color: $colorTextAccent;
+    }
+}
