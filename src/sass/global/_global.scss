@@ -16,3 +16,11 @@ body {
   color: $colorTextAdditional;
   text-align: center;
 }
+
+.logo {
+  color: $colorTextPrimary;
+  color: #000;
+  &--active {
+    color: $colorTextSecondary;
+  }
+}

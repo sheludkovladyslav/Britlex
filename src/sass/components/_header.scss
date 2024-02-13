@@ -1,0 +1,19 @@
+.header {
+  padding: 40px 32px;
+  &__logo {
+    font-size: 36px;
+    z-index: 19000;
+  }
+
+  &__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $colorTextSecondary;
+    padding-bottom: 10px;
+  }
+}
+
+.nav-logo__container {
+  z-index: 999;
+}
