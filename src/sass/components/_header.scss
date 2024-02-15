@@ -9,11 +9,17 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid $colorTextSecondary;
     padding-bottom: 10px;
   }
 }
 
+.nav__button {
+  border: 2px solid $colorTextAccent;
+  background-color: transparent;
+  color: $colorTextAccent;
+  font-size: 18px;
+  padding: 16px 65px;
+}
 .nav-logo__container {
   z-index: 999;
 }
