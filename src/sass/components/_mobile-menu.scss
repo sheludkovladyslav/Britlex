@@ -71,18 +71,21 @@
     height: 100%;
     background-color: $colorTextAdditional;
     flex-direction: column;
-    padding-top: 20%;
+    padding-top: 130px;
     align-items: flex-start;
     row-gap: 60px;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in;
-    padding-inline: 40px;
+    padding-inline: 15px;
     &::before {
       content: '';
       height: 2px;
-      width: 100%;
+      width: 95%;
       background-color: $colorTextSecondary;
-      padding-right: 32px;
+      position: absolute;
+      left: 50%;
+      top: 90px;
+      transform: translateX(-50%);
     }
   }
 
