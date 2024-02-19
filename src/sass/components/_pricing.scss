@@ -1,0 +1,207 @@
+.services{
+    // margin: 0 auto;
+    // padding: 0 35px;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // padding: 0 45px;
+        gap: 81px;
+    }
+    &__title{
+        font-weight: 600;
+        font-size: 24px;
+    }
+    &__cases{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 65px;
+    }
+}
+.case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding: 0 20px;
+    // gap: 25px;
+    max-width: 280px;
+    &__title{
+        font-weight: 600;
+        font-size: 18px;
+        color: $colorTextAccent;
+        text-align: center; 
+        margin-bottom: 17px;
+    }
+    &__text{
+        text-align: center; 
+        color: $colorTextSecondary;
+        margin-bottom: 33px;
+    }
+    &__fare{
+        font-size: 18px;
+        color: $colorTextAccent;
+        padding: 11px 18px;
+        background-color: $colorFillPrimary;
+        border-radius: 5px;
+        display: flex;
+        gap: 12px;
+        // align-items: center;
+        &::after{
+            content:  'per month';
+            display: flex;
+            // display: block;
+            align-items: center;
+            font-size: 14px;
+            color: $colorTextFourth;
+        }
+    }
+    &__photo{
+        margin-bottom: 28px;
+    }
+}
+@media (min-width: 575px){
+    .services{
+        // margin: 0 auto;
+        // padding: 0 35px;
+        &__container{
+            gap: 83px;
+        }
+        &__title{
+        font-size: 30px;
+        }
+        &__cases{
+            gap: 71px;
+        }
+    }
+    .case{
+        max-width: 227px;
+        &__title{
+            font-size: 24px;
+            margin-bottom: 23px;
+        }
+        &__text{
+            margin-bottom: 31px;
+            font-size: 14px;
+        }
+        &__fare{
+            font-size: 22px;
+            padding: 16px 25px;
+            gap: 16px;
+            &::after{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (min-width: 767px){
+    .services{
+        // margin: 0 auto;
+        &__container{
+            gap: 31px;
+            // padding: 0 30px;
+        }
+        &__cases{
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            padding: 25px;
+        }
+    }
+    .case{
+        max-width: 223px;
+        align-items: normal;
+        &__title{ 
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        &__text{
+            margin-bottom: 23px;
+            // max-height: 84px;
+            text-align: left;
+            // flex-shrink: 1;  
+        }
+        &__fare{
+            font-size: 22px;
+            padding: 12px 21px;
+            gap: 10px;
+            align-items: center; 
+            // flex-shrink: 0; 
+        }
+        &__photo{
+            margin-bottom: 23px; 
+        }
+    }
+}
+@media (min-width: 992px){
+    .services{
+        // margin: 0 auto;
+        &__title{
+            font-size: 36px;
+            }
+        &__container{
+            gap: 22px;
+        }
+        &__cases{
+            padding: 32px;
+        }
+    }
+    .case{
+        max-width: 261px;
+        align-items: normal;
+        &__title{ 
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        &__text{
+            margin-bottom: 31px;
+            font-size: 16px;  
+        }
+        &__fare{
+            font-size: 24px;
+            padding: 12px 12px;
+            max-width: 205px;
+        }
+        &__photo{
+            margin-bottom: 20px; 
+        }
+    }
+}
+@media (min-width: 1200px){
+    .services{
+        // margin: 0 auto;
+        &__title{
+            font-size: 48px;
+            }
+        &__container{
+            gap: 57px;
+        }
+        &__cases{
+            padding: 130px;
+        }
+    }
+    .case{
+        max-width: 435px;
+        align-items: normal;
+        &__title{ 
+            font-size: 30px;
+            margin-bottom: 19px;
+        }
+        &__text{
+            margin-bottom: 29px;
+            font-size: 20px;
+        }
+        &__fare{
+            font-size: 30px;
+            padding: 12px 24px;
+            max-width: 240px;
+            &::after{
+                font-size: 18px;
+            }
+        }
+        &__photo{
+            margin-bottom: 40px; 
+        }
+    }
+}
