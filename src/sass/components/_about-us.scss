@@ -68,3 +68,32 @@
         }
 }
 }
+@media (min-width: 575px){
+    .about-us{
+        &__title{
+            font-size: 30px;
+            margin-bottom: 23px;
+        }
+        &__text{
+            margin-bottom: 47px;
+        }
+        &__container{
+            padding: 0 33px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__photo{
+            margin-bottom: 25px;
+        }
+    }
+    .statistics{
+        flex-direction: row;
+        gap: 100px;
+        &__item{
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+}
+}
