@@ -8,6 +8,13 @@ body {
 .container {
   min-width: 320px;
   max-width: 1340px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
 }
 
 .button {
@@ -16,8 +23,11 @@ body {
   color: $colorTextAdditional;
   text-align: center;
 }
-img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
+
+.logo {
+  color: $colorTextPrimary;
+  color: #000;
+  &--active {
+    color: $colorTextSecondary;
+  }
 }
