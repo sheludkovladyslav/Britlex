@@ -62,8 +62,8 @@
 }
 @media (min-width: 575px){
     .services{
-        // margin: 0 auto;
-        // padding: 0 35px;
+        margin: 0 auto;
+        // padding: 0 20px;
         &__container{
             gap: 83px;
         }
@@ -92,6 +92,9 @@
                 font-size: 16px;
             }
         }
+        // &__photo{
+        //     max-width: 210px;
+        // }
     }
 }
 @media (min-width: 767px){
@@ -104,23 +107,26 @@
         &__cases{
             justify-content: space-between;
             flex-direction: row;
-            align-items: center;
+            align-items: flex-end;
             padding: 25px;
         }
     }
     .case{
         max-width: 223px;
         align-items: normal;
+        flex-grow: 0;
         &__title{ 
             font-size: 20px;
             margin-bottom: 15px;
             text-align: left;
+            // flex-grow: 1.24;
+            flex-grow: 0;  
         }
         &__text{
             margin-bottom: 23px;
             // max-height: 84px;
             text-align: left;
-            // flex-shrink: 1;  
+            flex-grow: 0;  
         }
         &__fare{
             font-size: 22px;
