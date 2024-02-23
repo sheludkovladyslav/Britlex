@@ -90,6 +90,20 @@
     &__title {
       text-align: left;
       font-size: 36px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      &::after {
+        content: '';
+        background-image: url(/src/images/hero/light.svg);
+        display: flex;
+        width: 60px;
+        height: 60px;
+        background-position: center;
+        position: absolute;
+        right: -55px;
+        top: 60px;
+      }
     }
     &__text {
       margin-bottom: 30px;
