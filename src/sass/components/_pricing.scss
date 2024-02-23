@@ -42,14 +42,18 @@
         font-size: 18px;
         color: $colorTextAccent;
         padding: 11px 18px;
-        background-color: $colorFillFair;
+        background-color: $colorFillPrimary;
         border-radius: 5px;
         display: flex;
         gap: 12px;
+        // align-items: center;
         &::after{
             content:  'per month';
-            display: block;
+            display: flex;
+            // display: block;
+            align-items: center;
             font-size: 14px;
+            color: $colorTextFourth;
         }
     }
     &__photo{
