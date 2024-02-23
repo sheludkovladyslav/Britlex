@@ -1,0 +1,24 @@
+.header {
+  padding: 40px 15px;
+  &__logo {
+    font-size: 24px;
+    z-index: 19000;
+  }
+
+  &__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.nav__button {
+  border: 2px solid $colorTextAccent;
+  background-color: transparent;
+  color: $colorTextAccent;
+  font-size: 20px;
+  padding: 16px 65px;
+}
+.nav-logo__container {
+  z-index: 999;
+}
