@@ -41,3 +41,72 @@
     text-align: center;
   }
 }
+
+@media (min-width: 575px) {
+  .skills {
+    &__container {
+      padding-inline: 33px;
+    }
+    &__cards {
+      gap: 30px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      row-gap: 35px;
+    }
+    &__title {
+      font-size: 30px;
+    }
+    &__card {
+      flex-basis: calc((100% - 30px) / 2);
+      min-height: 535px;
+    }
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+
+    &__text {
+      font-size: 12px;
+      flex-grow: 1;
+    }
+
+    &__button {
+      align-self: flex-start;
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .skills__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .skills__card {
+    min-height: 0;
+  }
+
+  .skill__text {
+    flex-grow: 0;
+  }
+
+  .skill {
+    &--speaking {
+      grid-row: 1/4;
+    }
+
+    &--writing {
+      grid-row: 1/3;
+    }
+
+    &--reading {
+      grid-row: 1/3;
+    }
+
+    &--listening {
+      grid-column: 2/4;
+    }
+  }
+}
