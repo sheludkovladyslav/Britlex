@@ -1,20 +1,23 @@
 .contact-us {
   &__title {
-    padding: 72px 0px 38px 0px;
+    padding-top: 72px;
+    padding-bottom: 38px;
     text-align: center;
     font-weight: 600;
     font-size: 24px;
-    line-height: 333%;
   }
 
   &__img {
-    padding: 0px 23px 0px 44px;
+    margin-left: 18%;
+    width: 253px;
+    height: 228px;
   }
 
   &__text {
-    padding: 38px;
+    padding-top: 38px;
+    padding-bottom: 17px;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 14px;
     text-align: center;
     color: #8f95a5;
   }
@@ -22,22 +25,59 @@
 
 .form {
   &__input {
-    padding: 16px 0px 16px 26px;
-    margin: 0px 14px 17px 14px;
+    padding-left: 26px;
+    margin: 0px 0px 17px 50px;
     border: 1px solid #8f95a5;
     border-radius: 5px;
-    width: 364px;
+    width: 291px;
     height: 50px;
   }
 }
 
 .contact-us__button {
-  margin: 0px 15px 57px 15px;
+  margin: 0px 15px 57px 50px;
   border-radius: 5px;
-  width: 364px;
+  width: 290px;
   height: 60px;
   background: #263238;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   color: #fff;
+}
+@media (min-width: 575px) {
+  .contact-us {
+    &__title {
+      padding-bottom: 86px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 30px;
+    }
+
+    &__img {
+      margin: 0px 102px 0px 115px;
+      padding-bottom: 34px;
+      width: 358px;
+      height: 322px;
+    }
+
+    &__text {
+      padding-bottom: 60px;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  .form__input {
+    margin: 0px 31px 144px 33px;
+    border: 1px solid #8f95a5;
+    border-radius: 10px;
+    width: 511px;
+    height: 60px;
+  }
+  .contact-us__button {
+    border-radius: 10px;
+    width: 193px;
+    height: 60px;
+    background: #263238;
+  }
 }
