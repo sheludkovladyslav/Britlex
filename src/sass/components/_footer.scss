@@ -1,0 +1,23 @@
+.footer {
+  padding-bottom: 46px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #8f95a5;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.footer::before {
+  content: '';
+  display: block;
+  margin: 57px 15px 26px 15px;
+  background: #c4c4c4;
+  width: 360px;
+  height: 1px;
+}
