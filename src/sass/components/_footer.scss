@@ -1,6 +1,6 @@
-.footer {
-  padding-bottom: 46px;
+.list__item {
   text-align: center;
+  padding-bottom: 46px;
   font-weight: 500;
   font-size: 12px;
   color: #8f95a5;
@@ -20,4 +20,25 @@
   background: #c4c4c4;
   width: 360px;
   height: 1px;
+}
+
+@media (min-width: 575px) {
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer::before {
+    margin: 144px 0px 38px 33px;
+    width: 510px;
+    height: 1px;
+  }
+  .logo {
+    font-size: 30px;
+    margin: 0 0 26px 32px;
+  }
+  .list__item {
+    margin-right: 32px;
+    margin-top: 12px;
+  }
 }
