@@ -42,3 +42,25 @@
     margin-top: 12px;
   }
 }
+
+@media (min-width: 767px) {
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer::before {
+    margin: 112px 0px 38px 38px;
+    width: 690px;
+    height: 1px;
+  }
+  .logo {
+    font-size: 30px;
+    margin: 0 0 26px 38px;
+  }
+  .list__item {
+    font-size: 13px;
+    margin-right: 38px;
+    margin-top: 12px;
+  }
+}
