@@ -14,7 +14,7 @@
 
   &__text {
     color: $colorTextSecondary;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     &--header {
       margin-bottom: 30px;
     }
@@ -88,11 +88,39 @@
     min-height: 0;
   }
 
+  .skill__header {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
   .skill__text {
-    flex-grow: 0;
+    flex-grow: 1;
   }
 
   .skill {
+    padding-left: 17px;
+    padding-top: 31px;
+    padding-bottom: 37px;
+    &__title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    &__text {
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    &__button {
+      font-size: 16px;
+      font-weight: 500;
+      padding: 15px 42px;
+    }
+
+    &__photo {
+      margin-bottom: 40px;
+    }
     &--speaking {
       grid-row: 1/4;
     }
@@ -107,6 +135,95 @@
 
     &--listening {
       grid-column: 2/4;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      padding-left: 22px;
+      padding-top: 30px;
+      padding-bottom: 25px;
+      & .skill__header {
+        max-width: 249px;
+      }
+
+      & .skill__title {
+        margin-bottom: 20px;
+      }
+
+      & .skill__photo {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .skills__title {
+    font-size: 36px;
+  }
+  .skill {
+    padding-left: 29px;
+    padding-top: 0;
+    padding-bottom: 30px;
+    &__title {
+      font-size: 22px;
+    }
+    &__text {
+      font-size: 14px;
+    }
+
+    &__button {
+      font-size: 18px;
+      padding: 17px 42px;
+    }
+
+    &--listening {
+      padding: 35px 29px;
+    }
+    & .skill__header {
+      max-width: 281px;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .skills__title {
+    font-size: 48px;
+  }
+  .skill {
+    padding-left: 43px;
+    padding-top: 35px;
+    padding-bottom: 90px;
+    &__title {
+      font-size: 30px;
+      margin-bottom: 40px;
+    }
+    &__text {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+
+    &__photo {
+      margin-bottom: 37px;
+    }
+
+    &__button {
+      font-size: 18px;
+      padding: 16px 64px;
+    }
+
+    &--listening {
+      padding: 48px 43px;
+      &__title {
+        margin-bottom: 30px;
+      }
+
+      &__text {
+        margin-bottom: 30px;
+      }
+    }
+    & .skill__header {
+      max-width: 328px;
     }
   }
 }
