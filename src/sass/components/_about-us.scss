@@ -87,13 +87,12 @@
           justify-content: space-between;
         //   align-items: center;
         }
-        &__photo{
+        &__photo{ 
             margin-bottom: 0;
             position: absolute;
             left: 400px;
             bottom: 0.75px; 
-            max-width: 300px; 
-             
+            max-width: 300px;        
         }
         &__body{
             position: relative;
