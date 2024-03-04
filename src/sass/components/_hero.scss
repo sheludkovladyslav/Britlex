@@ -44,5 +44,70 @@
     font-size: 16px;
     padding: 18px 99px;
     display: inline-block;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 575px) {
+  .hero {
+    &__info {
+      padding-inline: 40px;
+    }
+  }
+
+  .info {
+    &__title {
+      font-size: 34px;
+      margin-bottom: 25px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+    &__button {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .hero {
+    &__container {
+      flex-direction: row-reverse;
+      justify-content: center;
+    }
+    &__info {
+      padding-inline: 20px;
+      max-width: 430px;
+      align-items: flex-start;
+    }
+
+    &__photo {
+      min-width: 350px;
+    }
+  }
+
+  .info {
+    &__title {
+      text-align: left;
+      font-size: 36px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      &::after {
+        content: '';
+        background-image: url(/src/images/hero/light.svg);
+        display: flex;
+        width: 60px;
+        height: 60px;
+        background-position: center;
+        position: absolute;
+        right: -55px;
+        top: 60px;
+      }
+    }
+    &__text {
+      margin-bottom: 30px;
+      text-align: left;
+    }
   }
 }
