@@ -44,6 +44,7 @@
   font-size: 14px;
   color: #fff;
 }
+
 @media (min-width: 575px) {
   .contact-us {
     &__title {
@@ -54,6 +55,9 @@
     }
 
     &__img {
+      margin-left: 90px;
+      padding-bottom: 34px;
+      width: 398px;
       margin: 0px 102px 0px 115px;
       padding-bottom: 34px;
       width: 358px;
@@ -67,6 +71,14 @@
       text-align: center;
     }
   }
+
+  .contact-us__form {
+    display: flex;
+    gap: 0;
+  }
+  .form__input {
+    border: 1px solid #8f95a5;
+    margin-left: 25px;
   .form__input {
     margin: 0px 31px 144px 33px;
     border: 1px solid #8f95a5;
@@ -75,6 +87,7 @@
     height: 60px;
   }
   .contact-us__button {
+    margin-left: -193px;
     border-radius: 10px;
     width: 193px;
     height: 60px;
