@@ -22,3 +22,18 @@
 .nav-logo__container {
   z-index: 999;
 }
+
+@media (min-width: 575px) {
+  .header {
+    padding: 40px 32px;
+    &__logo {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .header {
+    padding: 40px;
+  }
+}

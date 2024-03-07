@@ -1,0 +1,43 @@
+.skill {
+  background-color: $colorBackground;
+  border-radius: 5px;
+  padding: 20px 13px 33px;
+  &__photo {
+    margin-bottom: 20px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    color: $colorTextAccent;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    color: $colorTextSecondary;
+    margin-bottom: 40px;
+    &--header {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__button {
+    padding: 14px 24px;
+  }
+}
+
+.skills {
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-inline: 15px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: $colorTextPrimary;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+}
