@@ -11,6 +11,7 @@
     &__title{
         font-weight: 600;
         font-size: 24px;
+        // margin-bottom: ;
     }
     &__cases{
         display: flex;
@@ -41,12 +42,13 @@
     &__fare{
         font-size: 18px;
         color: $colorTextAccent;
-        padding: 11px 18px; 
+        padding: 5px 15px;
         background-color: $colorFillPrimary;
         border-radius: 5px;
         display: flex;
         gap: 12px;
         // align-items: center;
+        line-height: 1.5;
         &::after{
             content:  'per month';
             display: flex;
@@ -86,7 +88,7 @@
         }
         &__fare{
             font-size: 22px;
-            padding: 16px 25px;
+            padding: 5px 15px;
             gap: 16px;
             &::after{
                 font-size: 16px;
@@ -113,7 +115,7 @@
     }
     .case{
         flex-basis: calc((100% - 60px) / 3);
-        align-items: stretch;
+        align-items: flex-start;
         &__english{
             margin-bottom: 30px;
         }
@@ -130,7 +132,7 @@
         }
         &__fare{
             font-size: 22px;
-            padding: 12px 15px;
+            padding: 5px 27px 7px 12px;
             gap: 10px;
             // flex-basis: calc(100% - (30px + 70px + 90px));
             align-items: center; 
@@ -140,16 +142,25 @@
         //     margin-bottom: 23px; 
         // }
         &__english{
+            padding: 5px 0 23px 0;
+        }
+        &__english-img{
             height:197px;
-            margin: 5px 0 23px 0;
         }
         &__lesson{
+            padding: 7px 0 50px 0;
+        }
+        &__lesson-img{
             height: 168px;
-            margin: 7px 0 50px 0;
         }
         &__webinar{
+            padding-bottom: 15px;
+        }
+        &__webinar-img{
             height: 210px;
-            margin-bottom: 15px;
+        }
+        &__photo{
+            margin-bottom: 0;
         }
     }
 }
@@ -168,10 +179,10 @@
     }
     .case{
         max-width: 261px;
-        align-items: normal;
-        &__english{
-            margin-bottom: 25px;
-        }
+        // align-items: normal;
+        // &__english{
+        //     margin-bottom: 25px;
+        // }
         &__title{ 
             font-size: 22px;
             margin-bottom: 15px;
@@ -182,23 +193,26 @@
         }
         &__fare{
             font-size: 24px;
-            padding: 12px 12px;
-            max-width: 205px;
+            padding: 5px 12px;
+            // max-width: 205px;
         }
-        // &__photo{
-        //     margin-bottom: 20px; 
-        // }
         &__english{
+            padding: 12px 0 23px 0;
+        }
+        &__english-img{
             height:222px;
-            margin: 12px 0 23px 0;
         }
         &__lesson{
+            padding: 37px 0 22px 0;
+        }
+        &__lesson-img{
             height: 195px;
-            margin: 37px 0 22px 0;
         }
         &__webinar{
+            padding-bottom: 12px;
+        }
+        &__webinar-img{
             height: 242px;
-            margin-bottom: 12px;
         }
     }
 }
@@ -212,12 +226,12 @@
             gap: 50px;
         }
         &__cases{
-            padding: 130px;
+            padding: 0;
         }
     }
     .case{
         max-width: 427px;
-        align-items: normal;
+        // align-items: normal;
         // &__english{
         //     margin-bottom: 25px;
         // }
@@ -231,8 +245,8 @@
         }
         &__fare{
             font-size: 30px;
-            padding: 12px 24px;
-            max-width: 240px;
+            padding: 0px 27px 0px 12px;
+            // max-width: 240px;
             &::after{
                 font-size: 18px;
             }
@@ -241,16 +255,22 @@
             max-width: 340px;
         }
         &__english{
+            padding: 0 0 29px 0;
+        }
+        &__english-img{
             height:311px;
-            margin: 0 0 29px 0;
         }
         &__lesson{
+            padding: 26px 0 42px 0;
+        }
+        &__lesson-img{
             height: 283px;
-            margin: 26px 0 42px 0;
         }
         &__webinar{
+            padding-bottom: 11px;
+        }
+        &__webinar-img{
             height: 340px;
-            margin-bottom: 11px;
         }
     }
 }
