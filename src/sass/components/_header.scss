@@ -23,6 +23,24 @@
   z-index: 999;
 }
 
+.to-top__button {
+  padding: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: opacity 0.3s ease;
+  border-radius: 50%;
+  &.scrolled {
+    opacity: 1;
+  }
+}
+
+.to-top__svg {
+  width: 30px;
+  height: 30px;
+  fill: $colorTextAdditional;
+}
+
 @media (min-width: 575px) {
   .header {
     padding: 40px 32px;
