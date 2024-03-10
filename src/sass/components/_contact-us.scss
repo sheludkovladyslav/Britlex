@@ -89,11 +89,12 @@
         &__photo{
             margin-bottom: 0;
             position: absolute;
-            left: 500px; 
+            right: 500px; 
             width: 233px;     
         }
         &__container{
             padding: 0 30px;
+            display: flex;
             flex-direction: row-reverse;
             align-items: flex-end;
         }
