@@ -15,10 +15,6 @@
     align-items: center;
     padding-inline: 16px;
   }
-
-  &__svg {
-    width: 424px;
-  }
 }
 
 .info {
@@ -39,7 +35,6 @@
   }
 
   &__button {
-    color: $colorTextAdditional;
     font-weight: 500;
     font-size: 16px;
     padding: 18px 99px;
@@ -137,7 +132,7 @@
   }
 }
 
-@media (min-width: px) {
+@media (min-width: 1600px) {
   .hero__container {
     justify-content: space-between;
     padding-inline: 29px;
