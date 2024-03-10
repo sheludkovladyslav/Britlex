@@ -73,6 +73,7 @@
             max-width: 193px;
             font-size: 16px;
             padding: 20px 56px;
+            border-radius: 10px;
         }
     }
 }
@@ -109,6 +110,7 @@
     .form{
         gap: 6px;
         border: 0;
+        width: 100%; 
         &__input{
             padding: 16px 24px;
             font-size: 12px;
@@ -119,6 +121,78 @@
             max-width: 145px;
             font-size: 13px;
             padding: 15px 40px;
+            border-radius: 5px;
         }
     }
 }
+@media (min-width: 992px){
+    .contact-us{
+        &__title{
+            font-size: 36px;
+            margin-bottom: 27px;
+        }
+        &__text{
+            font-size: 16px;
+            margin-bottom: 34px;
+        }
+        &__photo{
+            right: 600px; 
+            width: 312px;     
+        }
+        &__container{
+            padding: 0 13px;
+        }
+        &__body{
+            max-width: 535px;
+        }
+    }
+    .form{
+        gap: 14px;
+        &__input{
+            padding: 20px 38px;
+            font-size: 14px;
+            border-radius: 10px;
+        }
+        &__button{
+            max-width: 193px;
+            font-size: 16px;
+            padding: 20px 56px;
+            border-radius: 10px;
+        }
+    }
+}
+@media (min-width: 1600px){
+    .contact-us{
+        &__title{
+            font-size: 48px;
+            margin-bottom: 60px;
+        }
+        &__text{
+            font-size: 20px;
+            margin-bottom: 52px;
+        }
+        &__photo{
+            right: 1000px; 
+            width: 477px;     
+        }
+        &__container{
+            padding: 0;
+        }
+        &__body{
+            max-width: 776px;
+        }
+    }
+    .form{
+        gap: 12px;
+        &__input{
+            padding: 30px 33px;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+        &__button{
+            max-width: 264px;
+            font-size: 20px;
+            padding: 25px 82px;
+        }
+    }
+} 
