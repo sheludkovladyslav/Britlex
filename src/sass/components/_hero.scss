@@ -60,6 +60,10 @@
     }
     &__button {
       font-size: 18px;
+      transition: transform 250ms ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }
@@ -98,12 +102,17 @@
         position: absolute;
         right: -55px;
         top: 60px;
+        fill: blue;
       }
     }
     &__text {
       margin-bottom: 30px;
       text-align: left;
     }
+  }
+
+  .info__title:hover::after {
+    fill: $colorTextSecondary;
   }
 }
 
