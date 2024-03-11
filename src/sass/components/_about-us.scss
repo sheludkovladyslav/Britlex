@@ -27,7 +27,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    // justify-content: space-between;
     align-items: center;
   }
   &__count {
@@ -36,7 +35,7 @@
     color: $colorTextTertiary;
   }
   &__text {
-    font-size: 14px;
+    font-size: 13px;
     color: $colorTextSecondary;
   }
 }
@@ -44,7 +43,7 @@
   .about-us {
     &__title {
       font-size: 30px;
-      margin-bottom: 23px;
+      margin-bottom: 50px;
     }
     &__text {
       margin-bottom: 47px;
@@ -68,8 +67,10 @@
   }
   .statistics {
     width: 100%;
-    justify-content: center;
+    padding: 0 77px;
+    justify-content: space-between;
     flex-direction: row;
+    gap: 0;
     &__item {
       display: flex;
       flex-direction: column;
@@ -92,7 +93,6 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      //   align-items: center;
     }
     &__photo {
       margin-bottom: 0;
@@ -107,19 +107,18 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      // align-items: center;
     }
   }
   .statistics {
     width: 100%;
-
+    padding: 0;
     flex-direction: row;
     justify-content: space-between;
 
     &__item {
       display: flex;
       flex-direction: column;
-      gap: 23px;
+      gap: 27px;
     }
     &__text {
       font-size: 13px;
@@ -162,8 +161,7 @@
 
     flex-direction: row;
     &__item {
-      gap: 30px;
-      // font-size: 30px;
+      gap: 25px;
     }
     &__text {
       font-size: 16px;
@@ -190,7 +188,7 @@
     &__photo {
       position: absolute;
       left: 1000px;
-      bottom: 0.75px; 
+      bottom: 0.75px;
       max-width: 500px;
     }
     &__body {
@@ -202,8 +200,7 @@
     flex-direction: row;
     width: 100%;
     &__item {
-      gap: 20px;
-      // font-size: 20px;
+      gap: 30px;
     }
     &__text {
       font-size: 20px;
