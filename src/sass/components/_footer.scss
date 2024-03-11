@@ -64,3 +64,38 @@
     margin-top: 12px;
   }
 }
+
+@media (min-width: 992px) {
+  .footer::before {
+    margin: 157px 0px 38px 32px;
+    width: 929px;
+    height: 1px;
+  }
+  .logo {
+    font-size: 30px;
+    margin: 0 0 26px 32px;
+  }
+  .list__item {
+    font-size: 16px;
+    margin-right: 32px;
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .footer::before {
+    margin: 157px 0px 38px 131px;
+    width: 1338px;
+    height: 1px;
+  }
+  .logo {
+    font-size: 36px;
+    margin: 0px;
+    margin-bottom: 64px;
+  }
+  .list__item {
+    font-size: 24px;
+    margin-right: 0px;
+    margin-top: 12px;
+  }
+}
