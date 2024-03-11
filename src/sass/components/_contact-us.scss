@@ -16,7 +16,7 @@
   }
   &__container {
     margin: 0 auto;
-    padding: 0 14px;
+    padding: 0 14px 57px;
   }
 }
 .form {
@@ -54,7 +54,7 @@
       margin-bottom: 34px;
     }
     &__container {
-      padding: 0 30px;
+      padding: 0 30px 144px;
     }
   }
   .form {
@@ -94,7 +94,7 @@
       width: 233px;
     }
     &__container {
-      padding: 0 30px;
+      padding: 0 30px 142px;
       display: flex;
       flex-direction: row-reverse;
       align-items: flex-end;
@@ -140,7 +140,7 @@
       width: 312px;
     }
     &__container {
-      padding: 0 13px;
+      padding: 0 13px 194px;
     }
     &__body {
       max-width: 535px;
@@ -177,6 +177,7 @@
     }
     &__container {
       padding: 0;
+      padding-bottom: 222px;
     }
     &__body {
       max-width: 776px;

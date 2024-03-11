@@ -1,8 +1,7 @@
 .list__item {
   text-align: center;
-  padding-bottom: 46px;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
   color: $colorTextSecondary;
   display: flex;
   gap: 5px;
@@ -16,21 +15,35 @@
   }
 }
 
-.logo {
+.footer__logo {
   text-align: center;
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 24px;
-  padding-top: 25px;
 }
 
-.footer::before {
+.footer__list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__container {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__container::before {
   content: '';
   display: block;
   background: #c4c4c4;
-  width: 85%;
-  margin: 0 auto;
+  width: calc(100% - 30px);
   height: 1px;
+  position: absolute;
+  top: 0;
 }
 
 .footer__logo {
@@ -51,15 +64,17 @@
     display: flex;
     justify-content: space-between;
     padding-inline: 30px;
+    padding-top: 24px;
+    flex-direction: row;
+    align-items: center;
   }
 
-  .footer::before {
-    width: 92%;
-    margin-bottom: 24px;
+  .footer__container::before {
+    width: calc(100% - 66px);
   }
-  .logo {
+  .footer__logo {
     font-size: 30px;
-    padding-top: 0;
+    margin-bottom: 0;
   }
   .footer__list {
     display: flex;
@@ -67,25 +82,24 @@
   }
 
   .list__item {
-    padding-bottom: 0;
+    font-size: 12px;
   }
 }
 
 @media (min-width: 767px) {
   .footer__container {
     padding-inline: 30px;
+    padding-top: 18px;
   }
 
-  .footer::before {
-    width: 93%;
-    margin-bottom: 18px;
+  .footer__container::before {
+    width: calc(100% - 39px);
   }
   .logo {
     font-size: 30px;
   }
 
   .list__item {
-    padding-bottom: 0;
     font-size: 13px;
     font-weight: 400px;
   }
@@ -94,19 +108,14 @@
 @media (min-width: 992px) {
   .footer__container {
     padding-inline: 38px;
+    padding-top: 22px;
   }
 
-  .footer::before {
-    width: 93%;
-    margin-bottom: 22px;
-    max-width: 1338px;
-  }
-  .logo {
-    font-size: 30px;
+  .footer__container::before {
+    width: calc(100% - 64px);
   }
 
   .list__item {
-    padding-bottom: 0;
     font-size: 16px;
   }
 }
@@ -114,10 +123,10 @@
 @media (min-width: 1600px) {
   .footer__container {
     padding-inline: 0;
+    padding-top: 31px;
   }
-  .footer::before {
+  .footer__container::before {
     width: 1340px;
-    margin-bottom: 31px;
   }
   .logo {
     font-size: 36px;
