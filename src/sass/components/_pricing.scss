@@ -11,6 +11,7 @@
     &__title{
         font-weight: 600;
         font-size: 24px;
+        // margin-bottom: ;
     }
     &__cases{
         display: flex;
@@ -25,7 +26,7 @@
     align-items: center;
     // padding: 0 20px;
     // gap: 25px;
-    max-width: 280px;
+    // max-width: 280px;
     &__title{
         font-weight: 600;
         font-size: 18px;
@@ -41,12 +42,13 @@
     &__fare{
         font-size: 18px;
         color: $colorTextAccent;
-        padding: 11px 18px;
+        padding: 5px 15px;
         background-color: $colorFillPrimary;
         border-radius: 5px;
         display: flex;
         gap: 12px;
         // align-items: center;
+        line-height: 1.5;
         &::after{
             content:  'per month';
             display: flex;
@@ -62,8 +64,8 @@
 }
 @media (min-width: 575px){
     .services{
-        // margin: 0 auto;
-        // padding: 0 35px;
+        margin: 0 auto;
+        // padding: 0 20px;
         &__container{
             gap: 83px;
         }
@@ -75,7 +77,7 @@
         }
     }
     .case{
-        max-width: 227px;
+        // max-width: 227px;
         &__title{
             font-size: 24px;
             margin-bottom: 23px;
@@ -86,11 +88,14 @@
         }
         &__fare{
             font-size: 22px;
-            padding: 16px 25px;
+            padding: 5px 15px;
             gap: 16px;
             &::after{
                 font-size: 16px;
             }
+        }
+        &__photo{
+            max-width: 210px;
         }
     }
 }
@@ -104,13 +109,16 @@
         &__cases{
             justify-content: space-between;
             flex-direction: row;
-            align-items: center;
             padding: 25px;
+            align-items: stretch;
         }
     }
     .case{
-        max-width: 223px;
-        align-items: normal;
+        flex-basis: calc((100% - 60px) / 3);
+        align-items: flex-start;
+        &__english{
+            margin-bottom: 30px;
+        }
         &__title{ 
             font-size: 20px;
             margin-bottom: 15px;
@@ -120,17 +128,39 @@
             margin-bottom: 23px;
             // max-height: 84px;
             text-align: left;
-            // flex-shrink: 1;  
+            flex-grow: 1;
         }
         &__fare{
             font-size: 22px;
-            padding: 12px 21px;
+            padding: 5px 27px 7px 12px;
             gap: 10px;
+            // flex-basis: calc(100% - (30px + 70px + 90px));
             align-items: center; 
             // flex-shrink: 0; 
         }
+        // &__photo{
+        //     margin-bottom: 23px; 
+        // }
+        &__english{
+            padding: 5px 0 23px 0;
+        }
+        &__english-img{
+            height:197px;
+        }
+        &__lesson{
+            padding: 7px 0 50px 0;
+        }
+        &__lesson-img{
+            height: 168px;
+        }
+        &__webinar{
+            padding-bottom: 15px;
+        }
+        &__webinar-img{
+            height: 210px;
+        }
         &__photo{
-            margin-bottom: 23px; 
+            margin-bottom: 0;
         }
     }
 }
@@ -149,7 +179,10 @@
     }
     .case{
         max-width: 261px;
-        align-items: normal;
+        // align-items: normal;
+        // &__english{
+        //     margin-bottom: 25px;
+        // }
         &__title{ 
             font-size: 22px;
             margin-bottom: 15px;
@@ -160,30 +193,48 @@
         }
         &__fare{
             font-size: 24px;
-            padding: 12px 12px;
-            max-width: 205px;
+            padding: 5px 12px;
+            // max-width: 205px;
         }
-        &__photo{
-            margin-bottom: 20px; 
+        &__english{
+            padding: 12px 0 23px 0;
+        }
+        &__english-img{
+            height:222px;
+        }
+        &__lesson{
+            padding: 37px 0 22px 0;
+        }
+        &__lesson-img{
+            height: 195px;
+        }
+        &__webinar{
+            padding-bottom: 12px;
+        }
+        &__webinar-img{
+            height: 242px;
         }
     }
 }
-@media (min-width: 1200px){
+@media (min-width: 1600px){
     .services{
         // margin: 0 auto;
         &__title{
             font-size: 48px;
             }
         &__container{
-            gap: 57px;
+            gap: 50px;
         }
         &__cases{
-            padding: 130px;
+            padding: 0;
         }
     }
     .case{
-        max-width: 435px;
-        align-items: normal;
+        max-width: 427px;
+        // align-items: normal;
+        // &__english{
+        //     margin-bottom: 25px;
+        // }
         &__title{ 
             font-size: 30px;
             margin-bottom: 19px;
@@ -194,14 +245,32 @@
         }
         &__fare{
             font-size: 30px;
-            padding: 12px 24px;
-            max-width: 240px;
+            padding: 0px 27px 0px 12px;
+            // max-width: 240px;
             &::after{
                 font-size: 18px;
             }
         }
         &__photo{
-            margin-bottom: 40px; 
+            max-width: 340px;
+        }
+        &__english{
+            padding: 0 0 29px 0;
+        }
+        &__english-img{
+            height:311px;
+        }
+        &__lesson{
+            padding: 26px 0 42px 0;
+        }
+        &__lesson-img{
+            height: 283px;
+        }
+        &__webinar{
+            padding-bottom: 11px;
+        }
+        &__webinar-img{
+            height: 340px;
         }
     }
 }
