@@ -34,6 +34,10 @@
     padding-inline: 15px;
   }
 
+  &__container {
+    padding-bottom: 80px;
+  }
+
   &__title {
     font-weight: 600;
     font-size: 24px;
@@ -45,9 +49,9 @@
 
 @media (min-width: 575px) {
   .skills {
-    padding-bottom: 84px;
     &__container {
       padding-inline: 33px;
+      padding-bottom: 110px;
     }
     &__cards {
       gap: 30px;
@@ -80,9 +84,6 @@
 }
 
 @media (min-width: 767px) {
-  .skills{
-    padding-bottom: 52px;
-  }
   .skills__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -91,6 +92,10 @@
 
   .skills__card {
     min-height: 0;
+  }
+
+  .skills__container {
+    padding-bottom: 80px;
   }
 
   .skill__header {
@@ -162,9 +167,6 @@
 }
 
 @media (min-width: 992px) {
-  .skills{
-    padding-bottom: 106px;
-  }
   .skills__title {
     font-size: 36px;
   }
@@ -178,6 +180,10 @@
     }
     &__text {
       font-size: 14px;
+    }
+
+    .skills__container {
+      padding-bottom: 130px;
     }
 
     &__button {
@@ -195,12 +201,14 @@
 }
 
 @media (min-width: 1600px) {
-  .skills{
-    padding-bottom: 282px;
-  }
   .skills__title {
     font-size: 48px;
   }
+
+  .skills__container {
+    padding-bottom: 300px;
+  }
+
   .skill {
     padding-left: 43px;
     padding-top: 35px;
