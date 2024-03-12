@@ -1,216 +1,209 @@
-.about-us{
-    &__title{
-        font-weight: 600;
-        font-size: 24px;
-        margin-bottom: 54px;
-        text-align: center;
-    }
-    &__text{
-        color: $colorTextSecondary;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-    &__container{
-        margin: 0 auto;
-        padding: 0 18px;
-    }
-    &__photo{
-        margin-bottom: 23px;
-    }
+.about-us {
+    padding-top: 50px;
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 54px;
+    text-align: center;
+    line-height: 80px;
+  }
+  &__text {
+    color: $colorTextSecondary;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  &__container {
+    margin: 0 auto;
+    padding: 0 18px;
+  }
+  &__photo {
+    margin-bottom: 23px;
+  }
 }
-.statistics{
+.statistics {
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+  align-items: center;
+  &__item {
     display: flex;
     flex-direction: column;
-    gap: 59px;
-    // justify-content: space-between;
+    gap: 20px;
     align-items: center;
-    &__item{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        // justify-content: space-between;
-        align-items: center;
+  }
+  &__count {
+    font-weight: 600;
+    font-size: 24px;
+    color: $colorTextTertiary;
+  }
+  &__text {
+    font-size: 13px;
+    color: $colorTextSecondary;
+  }
+}
+@media (min-width: 575px) {
+  .about-us {
+    padding-top: 84px;
+    &__title {
+      font-size: 30px;
+      margin-bottom: 50px;
     }
-    &__count{
-        font-weight: 600;
-        font-size: 24px;
-        color: $colorTextTertiary;
+    &__text {
+      margin-bottom: 47px;
+      font-size: 14px;
     }
-    &__text{
-        font-size: 14px;
-        color: $colorTextSecondary;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 32px;
     }
-}
-@media (min-width: 575px){
-    .about-us{
-        &__title{
-            font-size: 30px;
-            margin-bottom: 23px;
-        }
-        &__text{
-            margin-bottom: 47px;
-            font-size: 14px;
-        }
-        &__container{
-            padding: 0 33px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        &__photo{
-            margin-bottom: 25px;
-            width: 352px;
-        }
-        &__body{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+    &__photo {
+      margin-bottom: 25px;
+      width: 352px;
     }
-    .statistics{
-        flex-direction: row;
-        gap: 100px;
-        &__item{
-            display: flex;
-            flex-direction: column;
-            gap: 22px;
-        }
-}
-}
-@media (min-width: 767px){
-    .about-us{
-         &__title{
-           margin-bottom: 30px;
-           text-align: left;
-
-        }
-        &__text{
-            margin-bottom: 40px;
-            text-align: left;
-         }
-         &__container{
-          padding: 52px 39px;
-          display: flex;
-          flex-direction: row; 
-          justify-content: space-between;
-        //   align-items: center;
-        }
-        &__photo{ 
-            margin-bottom: 0;
-            position: absolute;
-            left: 400px;
-            bottom: 0.75px; 
-            max-width: 300px;        
-        }
-        &__body{
-            position: relative;
-            max-width: 350px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            // align-items: center;
-        }
+    &__body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    .statistics{
-        flex-direction: row;
-        gap: 30px;
-        // justify-content: space-between;
-        // max-width: 320px;
-        &__item{
-            display: flex;
-            flex-direction: column;
-            gap: 23px;
-        }
-        &__text{
-            font-size: 13px;
-        }
-        &__count{
-            font-weight: 600;
-            font-size: 22px;
-            color: $colorTextTertiary;
-        }
-}
-}
-@media (min-width: 992px){
-    .about-us{
-         &__title{
-            font-size: 36px;
-            margin-bottom: 40px;
-        }
-        &__text{
-            margin-bottom: 45px;
-            text-align: left;
-            font-size: 16px;
-         }
-         &__container{
-          padding: 52px 31px;
-        //   align-items: center;
-        }
-        &__photo{
-            position: absolute;
-            left: 600px;
-            bottom: 0.75px; 
-            max-width: 336px; 
-             
-        }
-        &__body{
-            position: relative;
-            max-width: 526px;
-        }
+  }
+  .statistics {
+    width: 100%;
+    padding: 0 77px;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0;
+    &__item {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
     }
-    .statistics{
-        flex-direction: row;
-        gap: 62px;
-        &__item{
-            gap: 30px;
-            // font-size: 30px;
-        }
-        &__text{
-            font-size: 16px;
-        }
-        &__count{
-            font-weight: 600;
-            font-size: 30px;
-        }
+  }
 }
-}
-@media (min-width: 1600px){
-    .about-us{
-         &__title{
-            font-size: 48px;
-            margin-bottom: 46px;
-        }
-        &__text{
-            margin-bottom: 58px;
-            font-size: 20px;
-         }
-         &__container{
-          padding: 52px 0;
-        }
-        &__photo{
-            position: absolute;
-            left: 1000px;
-            bottom: 0.75px; 
-            max-width: 500px; 
-             
-        }
-        &__body{
-            position: relative;
-            max-width: 635px;
-        }
+@media (min-width: 767px) {
+  .about-us {
+    padding-top: 52px;
+    &__title {
+      margin-bottom: 30px;
+      text-align: left;
     }
-    .statistics{
-        flex-direction: row;
-        gap: 144px;
-        &__item{
-            gap: 20px;
-            // font-size: 20px; 
-        }
-        &__text{
-            font-size: 20px;
-        }
-        &__count{
-            font-size: 48px;
-        }
+    &__text {
+      margin-bottom: 40px;
+      text-align: left;
+    }
+    &__container {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      //   align-items: center;
+      padding: 0 30px;
+    }
+    &__photo {
+      margin-bottom: 0;
+      position: absolute;
+    //   left: 400px; 
+      right: 0;
+      top: 0;
+      width: 42%;
+    }
+    &__body {
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  .statistics {
+    width: 100%;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    &__item {
+      display: flex;
+      flex-direction: column;
+      gap: 27px;
+    }
+    &__text {
+      font-size: 13px;
+    }
+    &__count {
+      font-weight: 600;
+      font-size: 22px;
+      color: $colorTextTertiary;
+    }
+  }
 }
+@media (min-width: 992px) {
+  .about-us {
+    padding-top: 106px;
+    &__title {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    &__text {
+      margin-bottom: 45px;
+      text-align: left;
+      font-size: 16px;
+    }
+    &__container {
+      padding: 0 31px;
+    }
+    &__photo {
+      width: 35%;
+    }
+    &__body {
+      max-width: 526px;
+    }
+  }
+  .statistics {
+    width: 100%;
+    flex-direction: row;
+    &__item {
+      gap: 25px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+    &__count {
+      font-weight: 600;
+      font-size: 30px;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .about-us {
+    padding-top:  282px;
+    &__title {
+      font-size: 48px;
+      margin-bottom: 46px;
+    }
+    &__text {
+      margin-bottom: 58px;
+      font-size: 20px;
+    }
+    &__container {
+      padding: 0;
+    }
+    &__photo {
+      max-width: 37%;
+    }
+    &__body {
+      max-width: 635px;
+    }
+  }
+  .statistics {
+    flex-direction: row;
+    width: 100%;
+    &__item {
+      gap: 30px;
+    }
+    &__text {
+      font-size: 20px;
+    }
+    &__count {
+      font-size: 48px;
+    }
+  }
 }
