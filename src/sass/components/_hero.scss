@@ -60,10 +60,6 @@
     }
     &__button {
       font-size: 18px;
-      transition: transform 250ms ease-in-out;
-      &:hover {
-        transform: scale(1.1);
-      }
     }
   }
 }
