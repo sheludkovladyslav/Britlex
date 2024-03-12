@@ -1,4 +1,5 @@
 .contact-us {
+    padding-bottom: 57px;
   &__title {
     font-weight: 600;
     font-size: 24px;
@@ -17,7 +18,6 @@
   &__container {
     margin: 0 auto;
     padding: 0 14px;
-    padding-bottom: 57px;
   }
 }
 .form {
@@ -43,6 +43,7 @@
 }
 @media (min-width: 575px) {
   .contact-us {
+    padding-bottom: 144px;
     &__title {
       font-size: 30px;
       margin-bottom: 83px;
@@ -55,8 +56,8 @@
       margin-bottom: 34px;
     }
     &__container {
-      padding: 0 30px;
-      padding-bottom: 144px;
+      padding: 0 32px;
+    //   padding-bottom: 144px;
     }
   }
   .form {
@@ -81,6 +82,7 @@
 }
 @media (min-width: 767px) {
   .contact-us {
+    padding-bottom: 112px;
     &__title {
       margin-bottom: 21px;
     }
@@ -92,20 +94,20 @@
     &__photo {
       margin-bottom: 0;
       position: absolute;
-      right: 500px;
-      width: 233px;
+      left: 0;
+      top: 0;
+      width: 33%;
     }
     &__container {
-      padding: 0 30px;
+      position: relative;
+      padding: 0 38px;
       display: flex;
       flex-direction: row-reverse;
       align-items: flex-end;
-      padding-bottom: 112px;
     }
     &__body {
-      position: relative;
       max-width: 434px;
-      display: flex;
+      display: flex; 
       flex-direction: column;
       align-items: flex-start;
     }
@@ -130,6 +132,7 @@
 }
 @media (min-width: 992px) {
   .contact-us {
+    padding-bottom: 157px;
     &__title {
       font-size: 36px;
       margin-bottom: 27px;
@@ -139,12 +142,10 @@
       margin-bottom: 34px;
     }
     &__photo {
-      right: 600px;
-      width: 312px;
+      max-width: 400px;
     }
     &__container {
-      padding: 0 13px;
-      padding-bottom: 157px;
+      padding: 0 30px;
     }
     &__body {
       max-width: 535px;
@@ -167,6 +168,7 @@
 }
 @media (min-width: 1600px) {
   .contact-us {
+    padding-bottom: 133px;
     &__title {
       font-size: 48px;
       margin-bottom: 60px;
@@ -176,12 +178,10 @@
       margin-bottom: 52px;
     }
     &__photo {
-      right: 1000px;
-      width: 477px;
+        max-width: 500px;
     }
     &__container {
       padding: 0;
-      padding-bottom: 133px;
     }
     &__body {
       max-width: 776px;
