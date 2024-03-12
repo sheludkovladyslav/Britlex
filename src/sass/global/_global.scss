@@ -27,6 +27,10 @@ img {
   color: $colorTextAdditional;
   text-align: center;
   cursor: pointer;
+  transition: transform 250ms ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .logo {
