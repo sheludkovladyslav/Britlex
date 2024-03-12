@@ -1,5 +1,4 @@
 .header {
-  padding: 40px 15px;
   &__logo {
     font-size: 24px;
     z-index: 19000;
@@ -11,6 +10,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 15px;
+
+    padding-bottom: 29px;
   }
 }
 
@@ -106,16 +108,22 @@
 
 @media (min-width: 575px) {
   .header {
-    padding: 40px 32px;
     &__logo {
       font-size: 30px;
+    }
+    &__container {
+      padding: 40px 32px;
+      padding-bottom: 11px;
     }
   }
 }
 
 @media (min-width: 767px) {
   .header {
-    padding: 40px;
+    &__container {
+      padding: 40px;
+      padding-bottom: 68px;
+    }
   }
 }
 

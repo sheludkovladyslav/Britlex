@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 80px;
   }
 
   &__photo {
@@ -39,7 +40,6 @@
     font-size: 16px;
     padding: 18px 99px;
     display: inline-block;
-    margin-bottom: 50px;
   }
 }
 
@@ -47,6 +47,9 @@
   .hero {
     &__info {
       padding-inline: 40px;
+    }
+    &__container {
+      padding-bottom: 120px;
     }
   }
 
@@ -69,6 +72,7 @@
     &__container {
       flex-direction: row-reverse;
       justify-content: center;
+      padding-bottom: 87px;
     }
     &__info {
       padding-inline: 20px;
@@ -116,6 +120,7 @@
   .hero__container {
     justify-content: space-between;
     padding-inline: 29px;
+    padding-bottom: 102px;
   }
   .info {
     &__title {
@@ -141,6 +146,7 @@
   .hero__container {
     justify-content: space-between;
     padding-inline: 29px;
+    padding-bottom: 177px;
   }
   .info {
     &__title {
