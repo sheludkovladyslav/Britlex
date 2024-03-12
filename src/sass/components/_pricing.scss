@@ -1,11 +1,13 @@
 .services {
   // margin: 0 auto;
   // padding: 0 35px;
+  padding-bottom: 72px;
   &__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    // padding: 0 45px;
+    margin: 0 auto;
+    padding: 0 15px;
     gap: 81px;
   }
   &__title {
@@ -68,10 +70,12 @@
 }
 @media (min-width: 575px) {
   .services {
-    margin: 0 auto;
+    // margin: 0 auto;
     // padding: 0 20px;
+    padding-bottom: 163px;
     &__container {
       gap: 83px;
+      padding: 0 32px;
     }
     &__title {
       font-size: 30px;
@@ -106,9 +110,10 @@
 @media (min-width: 767px) {
   .services {
     // margin: 0 auto;
+    padding-bottom: 94px;
     &__container {
       gap: 31px;
-      // padding: 0 30px;
+      padding: 0 38px;
     }
     &__cases {
       justify-content: space-between;
@@ -120,7 +125,7 @@
   .case {
     flex-basis: calc((100% - 60px) / 3);
     align-items: flex-start;
-    &__english {
+    &--english {
       margin-bottom: 30px;
     }
     &__title {
@@ -145,22 +150,22 @@
     // &__photo{
     //     margin-bottom: 23px;
     // }
-    &__english {
+    &--english {
       padding: 5px 0 23px 0;
     }
-    &__english-img {
+    &--english-img {
       height: 197px;
     }
-    &__lesson {
+    &--lesson {
       padding: 7px 0 50px 0;
     }
-    &__lesson-img {
+    &--lesson-img {
       height: 168px;
     }
-    &__webinar {
+    &--webinar {
       padding-bottom: 15px;
     }
-    &__webinar-img {
+    &--webinar-img {
       height: 210px;
     }
     &__photo {
@@ -171,11 +176,13 @@
 @media (min-width: 992px) {
   .services {
     // margin: 0 auto;
+    padding-bottom: 140px;
     &__title {
       font-size: 36px;
     }
     &__container {
       gap: 22px;
+      padding: 0 30px;
     }
     &__cases {
       padding: 32px;
@@ -184,7 +191,7 @@
   .case {
     max-width: 261px;
     // align-items: normal;
-    // &__english{
+    // &--english{
     //     margin-bottom: 25px;
     // }
     &__title {
@@ -200,22 +207,22 @@
       padding: 5px 12px;
       // max-width: 205px;
     }
-    &__english {
+    &--english {
       padding: 12px 0 23px 0;
     }
-    &__english-img {
+    &--english-img {
       height: 222px;
     }
-    &__lesson {
+    &--lesson {
       padding: 37px 0 22px 0;
     }
-    &__lesson-img {
+    &--lesson-img {
       height: 195px;
     }
-    &__webinar {
+    &--webinar {
       padding-bottom: 12px;
     }
-    &__webinar-img {
+    &--webinar-img {
       height: 242px;
     }
   }
@@ -223,11 +230,13 @@
 @media (min-width: 1600px) {
   .services {
     // margin: 0 auto;
+    padding-bottom: 261px;
     &__title {
       font-size: 48px;
     }
     &__container {
       gap: 50px;
+      padding: 0;
     }
     &__cases {
       padding: 0;
@@ -236,7 +245,7 @@
   .case {
     max-width: 427px;
     // align-items: normal;
-    // &__english{
+    // &--english{
     //     margin-bottom: 25px;
     // }
     &__title {
@@ -258,22 +267,22 @@
     &__photo {
       max-width: 340px;
     }
-    &__english {
+    &--english {
       padding: 0 0 29px 0;
     }
-    &__english-img {
+    &--english-img {
       height: 311px;
     }
-    &__lesson {
+    &--lesson {
       padding: 26px 0 42px 0;
     }
-    &__lesson-img {
+    &--lesson-img {
       height: 283px;
     }
-    &__webinar {
+    &--webinar {
       padding-bottom: 11px;
     }
-    &__webinar-img {
+    &--webinar-img {
       height: 340px;
     }
   }
