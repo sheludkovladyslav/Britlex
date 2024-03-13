@@ -1,5 +1,6 @@
 .contact-us {
-    padding-bottom: 57px;
+  overflow-x: hidden;
+
   &__title {
     font-weight: 600;
     font-size: 24px;
@@ -18,6 +19,7 @@
   &__container {
     margin: 0 auto;
     padding: 0 14px;
+    padding-bottom: 57px;
   }
 }
 .form {
@@ -57,7 +59,7 @@
     }
     &__container {
       padding: 0 32px;
-    //   padding-bottom: 144px;
+      //   padding-bottom: 144px;
     }
   }
   .form {
@@ -107,7 +109,7 @@
     }
     &__body {
       max-width: 434px;
-      display: flex; 
+      display: flex;
       flex-direction: column;
       align-items: flex-start;
     }
