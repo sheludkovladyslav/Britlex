@@ -40,6 +40,7 @@
     text-align: center;
     color: $colorTextSecondary;
     margin-bottom: 33px;
+    line-height: calc(20 / 13);
   }
   &__fare {
     font-size: 18px;
@@ -132,6 +133,7 @@
       font-size: 20px;
       margin-bottom: 15px;
       text-align: left;
+      line-height: calc(28 / 20);
     }
     &__text {
       margin-bottom: 23px;
@@ -197,6 +199,7 @@
     &__title {
       font-size: 22px;
       margin-bottom: 15px;
+      line-height: calc(34 / 22);
     }
     &__text {
       margin-bottom: 31px;
@@ -251,6 +254,7 @@
     &__title {
       font-size: 30px;
       margin-bottom: 19px;
+      line-height: calc(48 / 30);
     }
     &__text {
       margin-bottom: 29px;
