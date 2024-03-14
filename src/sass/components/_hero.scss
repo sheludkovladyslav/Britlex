@@ -36,6 +36,7 @@
     color: $colorTextSecondary;
     margin-bottom: 35px;
     text-align: center;
+    line-height: calc(21 / 14);
   }
 
   &__button {
@@ -43,16 +44,15 @@
     font-size: 16px;
     padding: 18px 99px;
     display: inline-block;
+    line-height: calc(24 / 16);
   }
 }
 
 @media (min-width: 575px) {
   .hero {
-    &__info {
-      padding-inline: 40px;
-    }
     &__container {
       padding-bottom: 120px;
+      padding-inline: 40px;
     }
   }
 
@@ -76,9 +76,9 @@
       flex-direction: row-reverse;
       justify-content: center;
       padding-bottom: 87px;
+      padding-inline: 28px;
     }
     &__info {
-      padding-inline: 20px;
       max-width: 430px;
       align-items: flex-start;
     }
@@ -148,7 +148,6 @@
 @media (min-width: 1600px) {
   .hero__container {
     justify-content: space-between;
-    padding-inline: 29px;
     padding-bottom: 177px;
   }
   .info {
@@ -170,9 +169,13 @@
       padding: 32px 116px;
       font-size: 36px;
     }
+  }
+  .hero__img {
+    min-width: 660px;
+  }
 
-    .hero__img {
-      min-width: 660px;
-    }
+  .hero__info {
+    padding-inline: 0;
+    max-width: 530px;
   }
 }
