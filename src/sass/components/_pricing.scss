@@ -143,13 +143,8 @@
       font-size: 22px;
       padding: 5px 27px 7px 12px;
       gap: 10px;
-      // flex-basis: calc(100% - (30px + 70px + 90px));
       align-items: center;
-      // flex-shrink: 0;
     }
-    // &__photo{
-    //     margin-bottom: 23px;
-    // }
     &--english {
       padding: 5px 0 23px 0;
     }
@@ -259,7 +254,6 @@
     &__fare {
       font-size: 30px;
       padding: 0px 27px 0px 12px;
-      // max-width: 240px;
       &::after {
         font-size: 18px;
       }
