@@ -79,7 +79,10 @@
   .skill {
     display: flex;
     flex-direction: column;
-
+    transition: transform 250ms ease-in-out;
+    &:hover {
+      transform: scale(1.01);
+    }
     &__text {
       font-size: 12px;
       flex-grow: 1;
