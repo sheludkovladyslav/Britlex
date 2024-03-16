@@ -10,8 +10,8 @@
   &__title {
     font-weight: 600;
     font-size: 18px;
+    line-height: 3.83;
     color: $colorTextAccent;
-    margin-bottom: 25px;
   }
 
   &__text {
@@ -41,8 +41,6 @@
   }
 
   &__title {
-    font-weight: 600;
-    font-size: 24px;
     color: $colorTextPrimary;
     margin-bottom: 32px;
     text-align: center;
@@ -111,13 +109,11 @@
   }
 
   .skill {
-    // padding-left: 17px;
-    // padding-top: 31px;
-    // padding-bottom: 37px;
     padding: 31px 0 37px 17px;
     &__title {
       font-size: 20px;
       font-weight: 600;
+      line-height: 3.45;
     }
 
     &__text {
@@ -157,10 +153,6 @@
         max-width: 249px;
       }
 
-      & .skill__title {
-        margin-bottom: 20px;
-      }
-
       & .skill__photo {
         margin-bottom: 0;
       }
@@ -169,16 +161,11 @@
 }
 
 @media (min-width: 992px) {
-  .skills__title {
-    font-size: 36px;
-  }
   .skill {
-    padding-left: 29px;
-    padding-top: 0;
-    padding-bottom: 30px;
     padding: 0 0 30px 29px;
     &__title {
       font-size: 22px;
+      line-height: 3.13;
     }
     &__text {
       font-size: 14px;
@@ -203,10 +190,6 @@
 }
 
 @media (min-width: 1600px) {
-  .skills__title {
-    font-size: 48px;
-  }
-
   .skills__container {
     padding-bottom: 300px;
   }
@@ -217,7 +200,7 @@
     padding-bottom: 90px;
     &__title {
       font-size: 30px;
-      margin-bottom: 40px;
+      line-height: 2.66;
     }
     &__text {
       font-size: 16px;

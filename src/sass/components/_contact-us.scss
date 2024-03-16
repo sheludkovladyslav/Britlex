@@ -2,8 +2,6 @@
   overflow-x: hidden;
 
   &__title {
-    font-weight: 600;
-    font-size: 24px;
     margin-bottom: 70px;
     text-align: center;
   }
@@ -31,7 +29,7 @@
     padding: 16px 26px;
     font-size: 12px;
     color: $colorTextSecondary;
-    border: 1px solid #8f95a5;
+    border: 1px solid $colorTextSecondary;
     border-radius: 5px;
     width: 100%;
   }
@@ -47,7 +45,6 @@
   .contact-us {
     padding-bottom: 144px;
     &__title {
-      font-size: 30px;
       margin-bottom: 83px;
     }
     &__text {
@@ -59,7 +56,6 @@
     }
     &__container {
       padding: 0 32px;
-      //   padding-bottom: 144px;
     }
   }
   .form {
@@ -136,16 +132,12 @@
   .contact-us {
     padding-bottom: 157px;
     &__title {
-      font-size: 36px;
       margin-bottom: 27px;
     }
     &__text {
       font-size: 16px;
       margin-bottom: 34px;
     }
-    // &__photo {
-    //   max-width: 400px;
-    // }
     &__container {
       padding: 0 30px;
     }
@@ -172,16 +164,12 @@
   .contact-us {
     padding-bottom: 133px;
     &__title {
-      font-size: 48px;
       margin-bottom: 60px;
     }
     &__text {
       font-size: 20px;
       margin-bottom: 52px;
     }
-    // &__photo {
-    //     max-width: 500px;
-    // }
     &__container {
       padding: 0;
     }
