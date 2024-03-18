@@ -95,6 +95,7 @@
       display: flex;
       flex-direction: column;
       line-height: calc(45 / 36);
+      font-weight: 400;
       &::after {
         content: '';
         background-image: url(/src/images/hero/light.svg);
