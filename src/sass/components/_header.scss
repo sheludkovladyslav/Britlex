@@ -52,8 +52,13 @@
   transition: opacity 0.3s ease;
   border-radius: 50%;
   animation: scrollAnimation 3s cubic-bezier(0.4, 0, 0.2, 1) 0s infinite;
-  &:hover {
+
+  &:active {
     animation-play-state: paused;
+  }
+
+  &:hover {
+    transform: scale(1);
   }
 }
 
@@ -125,6 +130,14 @@
     &__container {
       padding: 40px;
       padding-bottom: 68px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .to-top__button {
+    &:hover {
+      animation-play-state: paused;
     }
   }
 }
