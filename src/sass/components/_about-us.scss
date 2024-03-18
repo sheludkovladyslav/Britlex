@@ -1,12 +1,9 @@
 .about-us {
   overflow-x: hidden;
-
   &__title {
-    font-weight: 600;
-    font-size: 24px;
     margin-bottom: 54px;
     text-align: center;
-    line-height: 80px;
+
   }
   &__text {
     color: $colorTextSecondary;
@@ -51,8 +48,8 @@
 @media (min-width: 575px) {
   .about-us {
     &__title {
-      font-size: 30px;
       margin-bottom: 50px;
+
     }
     &__text {
       margin-bottom: 47px;
@@ -67,7 +64,7 @@
     }
     &__photo {
       margin-bottom: 25px;
-      width: 352px;
+      width: 69%;
     }
     &__body {
       display: flex;
@@ -91,7 +88,7 @@
 @media (min-width: 767px) {
   .about-us {
     &__title {
-      margin-bottom: 30px;
+      margin-bottom: 0;
       text-align: left;
     }
     &__text {
@@ -103,14 +100,12 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      //   align-items: center;
       padding: 0 32px;
       padding-bottom: 114px;
     }
     &__photo {
       margin-bottom: 0;
       position: absolute;
-      //   left: 400px;
       right: 0;
       top: 0;
       width: 42%;
@@ -145,8 +140,8 @@
 @media (min-width: 992px) {
   .about-us {
     &__title {
-      font-size: 36px;
       margin-bottom: 40px;
+   
     }
     &__text {
       margin-bottom: 45px;
@@ -182,8 +177,8 @@
 @media (min-width: 1600px) {
   .about-us {
     &__title {
-      font-size: 48px;
       margin-bottom: 46px;
+
     }
     &__text {
       margin-bottom: 58px;

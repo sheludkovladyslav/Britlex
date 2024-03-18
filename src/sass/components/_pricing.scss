@@ -1,6 +1,5 @@
 .services {
   overflow-x: hidden;
-
   padding-bottom: 72px;
   &__container {
     display: flex;
@@ -8,12 +7,7 @@
     align-items: center;
     margin: 0 auto;
     padding: 0 15px;
-    gap: 81px;
-  }
-  &__title {
-    font-weight: 600;
-    font-size: 24px;
-    // margin-bottom: ;
+    gap: 49px;
   }
   &__cases {
     display: flex;
@@ -26,12 +20,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // padding: 0 20px;
-  // gap: 25px;
-  // max-width: 280px;
   &__title {
     font-weight: 600;
     font-size: 18px;
+    line-height: 1.5;
     color: $colorTextAccent;
     text-align: center;
     margin-bottom: 17px;
@@ -50,12 +42,10 @@
     border-radius: 5px;
     display: flex;
     gap: 12px;
-    // align-items: center;
     line-height: 1.5;
     &::after {
       content: 'per month';
       display: flex;
-      // display: block;
       align-items: center;
       font-size: 14px;
       color: $colorTextFourth;
@@ -71,25 +61,21 @@
 }
 @media (min-width: 575px) {
   .services {
-    // margin: 0 auto;
-    // padding: 0 20px;
     padding-bottom: 163px;
     &__container {
-      gap: 83px;
+      gap: 54px;
       padding: 0 32px;
     }
-    &__title {
-      font-size: 30px;
-    }
+
     &__cases {
       gap: 71px;
     }
   }
   .case {
-    // max-width: 227px;
     &__title {
       font-size: 24px;
       margin-bottom: 23px;
+      line-height: 1.16;
     }
     &__text {
       margin-bottom: 31px;
@@ -103,23 +89,27 @@
         font-size: 16px;
       }
     }
-    &__photo {
-      max-width: 210px;
+    &--english-img {
+      height: 291px;
+    }
+    &--lesson-img {
+      height: 241px;
+    }
+    &--webinar-img {
+      height: 253px;
     }
   }
 }
 @media (min-width: 767px) {
   .services {
-    // margin: 0 auto;
     padding-bottom: 94px;
     &__container {
-      gap: 31px;
+      gap: 26px;
       padding: 0 38px;
     }
     &__cases {
       justify-content: space-between;
       flex-direction: row;
-      padding: 25px;
       align-items: stretch;
     }
   }
@@ -134,10 +124,10 @@
       margin-bottom: 15px;
       text-align: left;
       line-height: calc(28 / 20);
+
     }
     &__text {
       margin-bottom: 23px;
-      // max-height: 84px;
       text-align: left;
       flex-grow: 1;
     }
@@ -145,13 +135,8 @@
       font-size: 22px;
       padding: 5px 27px 7px 12px;
       gap: 10px;
-      // flex-basis: calc(100% - (30px + 70px + 90px));
       align-items: center;
-      // flex-shrink: 0;
     }
-    // &__photo{
-    //     margin-bottom: 23px;
-    // }
     &--english {
       padding: 5px 0 23px 0;
     }
@@ -177,29 +162,20 @@
 }
 @media (min-width: 992px) {
   .services {
-    // margin: 0 auto;
     padding-bottom: 140px;
-    &__title {
-      font-size: 36px;
-    }
+
     &__container {
-      gap: 22px;
+      gap: 15px;
       padding: 0 30px;
-    }
-    &__cases {
-      padding: 32px;
     }
   }
   .case {
     max-width: 261px;
-    // align-items: normal;
-    // &--english{
-    //     margin-bottom: 25px;
-    // }
     &__title {
-      font-size: 22px;
       margin-bottom: 15px;
-      line-height: calc(34 / 22);
+            line-height: 2.18;
+
+
     }
     &__text {
       margin-bottom: 31px;
@@ -208,7 +184,6 @@
     &__fare {
       font-size: 24px;
       padding: 5px 12px;
-      // max-width: 205px;
     }
     &--english {
       padding: 12px 0 23px 0;
@@ -232,13 +207,10 @@
 }
 @media (min-width: 1600px) {
   .services {
-    // margin: 0 auto;
     padding-bottom: 261px;
-    &__title {
-      font-size: 48px;
-    }
+
     &__container {
-      gap: 50px;
+      gap: 57px;
       padding: 0;
     }
     &__cases {
@@ -247,14 +219,11 @@
   }
   .case {
     max-width: 427px;
-    // align-items: normal;
-    // &--english{
-    //     margin-bottom: 25px;
-    // }
     &__title {
       font-size: 30px;
       margin-bottom: 19px;
-      line-height: calc(48 / 30);
+      line-height: 1.6;
+
     }
     &__text {
       margin-bottom: 29px;
@@ -263,7 +232,6 @@
     &__fare {
       font-size: 30px;
       padding: 0px 27px 0px 12px;
-      // max-width: 240px;
       &::after {
         font-size: 18px;
       }

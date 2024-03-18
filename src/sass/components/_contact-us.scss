@@ -2,8 +2,6 @@
   overflow-x: hidden;
 
   &__title {
-    font-weight: 600;
-    font-size: 24px;
     margin-bottom: 70px;
     text-align: center;
   }
@@ -47,7 +45,6 @@
 @media (min-width: 575px) {
   .contact-us {
     &__title {
-      font-size: 30px;
       margin-bottom: 83px;
     }
     &__text {
@@ -58,8 +55,9 @@
       margin-bottom: 34px;
     }
     &__container {
-      padding: 0 32px;
       padding-bottom: 144px;
+      padding: 0 32px;
+
     }
   }
   .form {
@@ -135,7 +133,6 @@
 @media (min-width: 992px) {
   .contact-us {
     &__title {
-      font-size: 36px;
       margin-bottom: 27px;
     }
     &__text {
@@ -172,14 +169,12 @@
 @media (min-width: 1600px) {
   .contact-us {
     &__title {
-      font-size: 48px;
       margin-bottom: 60px;
     }
     &__text {
       font-size: 20px;
       margin-bottom: 52px;
     }
-
     &__container {
       padding: 0;
       padding-bottom: 133px;

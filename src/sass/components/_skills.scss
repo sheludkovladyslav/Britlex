@@ -10,8 +10,8 @@
   &__title {
     font-weight: 600;
     font-size: 18px;
+    line-height: 3.83;
     color: $colorTextAccent;
-    margin-bottom: 25px;
   }
 
   &__text {
@@ -48,8 +48,6 @@
   }
 
   &__title {
-    font-weight: 600;
-    font-size: 24px;
     color: $colorTextPrimary;
     margin-bottom: 32px;
     text-align: center;
@@ -136,7 +134,8 @@
     &__title {
       font-size: 20px;
       font-weight: 600;
-      margin-bottom: 20px;
+      line-height: 3.45;
+
     }
 
     &__text {
@@ -175,10 +174,6 @@
         max-width: 249px;
       }
 
-      & .skill__title {
-        margin-bottom: 20px;
-      }
-
       & .skill__photo {
         margin-bottom: 0;
       }
@@ -187,15 +182,12 @@
 }
 
 @media (min-width: 992px) {
-  .skills__title {
-    font-size: 36px;
-    line-height: calc(80 / 36);
-    margin-bottom: 53px;
-  }
   .skill {
     padding: 0 20px 30px 29px;
+
     &__title {
       font-size: 22px;
+      line-height: 3.13;
     }
     &__text {
       font-size: 14px;
@@ -220,12 +212,6 @@
 }
 
 @media (min-width: 1600px) {
-  .skills__title {
-    font-size: 48px;
-    line-height: calc(80 / 48);
-    margin-bottom: 96px;
-  }
-
   .skills__container {
     padding-bottom: 300px;
   }
@@ -236,7 +222,7 @@
     padding-bottom: 90px;
     &__title {
       font-size: 30px;
-      margin-bottom: 40px;
+      line-height: 2.66;
     }
     &__text {
       font-size: 16px;
