@@ -7,11 +7,13 @@
     align-items: center;
     margin: 0 auto;
     padding: 0 15px;
-    gap: 81px;
+    gap: 49px;
   }
   &__title {
     font-weight: 600;
     font-size: 24px;
+    line-height: 3.3;
+
   }
   &__cases {
     display: flex;
@@ -65,11 +67,12 @@
   .services {
     padding-bottom: 163px;
     &__container {
-      gap: 83px;
+      gap: 54px;
       padding: 0 32px;
     }
     &__title {
       font-size: 30px;
+      line-height: 2.6;
     }
     &__cases {
       gap: 71px;
@@ -92,8 +95,14 @@
         font-size: 16px;
       }
     }
-    &__photo {
-      max-width: 210px;
+    &--english-img {
+      height: 291px;
+    }
+    &--lesson-img {
+      height: 241px;
+    }
+    &--webinar-img {
+      height: 253px;
     }
   }
 }
@@ -101,13 +110,12 @@
   .services {
     padding-bottom: 94px;
     &__container {
-      gap: 31px;
+      gap: 26px;
       padding: 0 38px;
     }
     &__cases {
       justify-content: space-between;
       flex-direction: row;
-      padding: 25px;
       align-items: stretch;
     }
   }
@@ -161,13 +169,11 @@
     padding-bottom: 140px;
     &__title {
       font-size: 36px;
+      line-height: 2.2;
     }
     &__container {
-      gap: 22px;
+      gap: 15px;
       padding: 0 30px;
-    }
-    &__cases {
-      padding: 32px;
     }
   }
   .case {
@@ -209,9 +215,10 @@
     padding-bottom: 261px;
     &__title {
       font-size: 48px;
+      line-height: 1.6;
     }
     &__container {
-      gap: 50px;
+      gap: 57px;
       padding: 0;
     }
     &__cases {
