@@ -39,7 +39,7 @@
 .footer__container::before {
   content: '';
   display: block;
-  background: #c4c4c4;
+  background: $backgroundPrimary;
   width: calc(100% - 30px);
   height: 1px;
   position: absolute;
