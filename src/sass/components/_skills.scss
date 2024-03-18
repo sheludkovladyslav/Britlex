@@ -26,6 +26,13 @@
   &__button {
     padding: 14px 24px;
   }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
 }
 
 .skills {
@@ -111,6 +118,7 @@
 
   .skills__container {
     padding-bottom: 80px;
+    padding-inline: 0;
   }
 
   .skill__header {
@@ -139,7 +147,7 @@
     &__button {
       font-size: 16px;
       font-weight: 500;
-      padding: 15px 42px;
+      padding: 15px 43px;
     }
 
     &__photo {
@@ -199,7 +207,7 @@
 
     &__button {
       font-size: 18px;
-      padding: 17px 42px;
+      padding: 18px 42px;
     }
 
     &--listening {
