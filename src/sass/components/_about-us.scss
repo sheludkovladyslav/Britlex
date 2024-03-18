@@ -3,7 +3,6 @@
   &__title {
     margin-bottom: 54px;
     text-align: center;
-
   }
   &__text {
     color: $colorTextSecondary;
@@ -33,6 +32,7 @@
     transition: transform 250ms ease-in-out;
     &:hover {
       transform: scale(1.1);
+      cursor: pointer;
     }
   }
   &__count {
@@ -49,7 +49,6 @@
   .about-us {
     &__title {
       margin-bottom: 50px;
-
     }
     &__text {
       margin-bottom: 47px;
@@ -141,7 +140,6 @@
   .about-us {
     &__title {
       margin-bottom: 40px;
-   
     }
     &__text {
       margin-bottom: 45px;
@@ -178,7 +176,6 @@
   .about-us {
     &__title {
       margin-bottom: 46px;
-
     }
     &__text {
       margin-bottom: 58px;

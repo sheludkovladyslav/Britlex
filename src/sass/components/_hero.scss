@@ -57,7 +57,7 @@
 
   .info {
     &__title {
-      font-size: 34px;
+      font-size: 36px;
       margin-bottom: 25px;
     }
     &__text {
@@ -94,12 +94,13 @@
       position: relative;
       display: flex;
       flex-direction: column;
+      line-height: calc(45 / 36);
       &::after {
         content: '';
         background-image: url(/src/images/hero/light.svg);
         display: flex;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         background-position: center;
         position: absolute;
         right: -55px;
@@ -126,11 +127,13 @@
   }
   .info {
     &__title {
+      line-height: calc(64 / 48);
       font-size: 48px;
       &::after {
         width: 60px;
         height: 60px;
-        right: -70px;
+        right: -66px;
+        top: 85px;
       }
     }
     &__text {
@@ -153,10 +156,12 @@
     &__title {
       font-size: 64px;
       margin-bottom: 40px;
+      line-height: calc(80 / 64);
       &::after {
-        width: 60px;
-        height: 60px;
-        right: -70px;
+        width: 85px;
+        height: 85px;
+        right: -90px;
+        top: 95px;
       }
     }
     &__text {
