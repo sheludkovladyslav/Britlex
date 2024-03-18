@@ -9,12 +9,6 @@
     padding: 0 15px;
     gap: 49px;
   }
-  &__title {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 3.3;
-
-  }
   &__cases {
     display: flex;
     flex-direction: column;
@@ -29,6 +23,7 @@
   &__title {
     font-weight: 600;
     font-size: 18px;
+    line-height: 1.5;
     color: $colorTextAccent;
     text-align: center;
     margin-bottom: 17px;
@@ -71,10 +66,7 @@
       gap: 54px;
       padding: 0 32px;
     }
-    &__title {
-      font-size: 30px;
-      line-height: 2.6;
-    }
+
     &__cases {
       gap: 71px;
     }
@@ -83,6 +75,7 @@
     &__title {
       font-size: 24px;
       margin-bottom: 23px;
+      line-height: 1.16;
     }
     &__text {
       margin-bottom: 31px;
@@ -131,6 +124,7 @@
       margin-bottom: 15px;
       text-align: left;
       line-height: calc(28 / 20);
+
     }
     &__text {
       margin-bottom: 23px;
@@ -169,10 +163,7 @@
 @media (min-width: 992px) {
   .services {
     padding-bottom: 140px;
-    &__title {
-      font-size: 36px;
-      line-height: 2.2;
-    }
+
     &__container {
       gap: 15px;
       padding: 0 30px;
@@ -181,9 +172,10 @@
   .case {
     max-width: 261px;
     &__title {
-      font-size: 22px;
       margin-bottom: 15px;
-      line-height: calc(34 / 22);
+            line-height: 2.18;
+
+
     }
     &__text {
       margin-bottom: 31px;
@@ -216,10 +208,7 @@
 @media (min-width: 1600px) {
   .services {
     padding-bottom: 261px;
-    &__title {
-      font-size: 48px;
-      line-height: 1.6;
-    }
+
     &__container {
       gap: 57px;
       padding: 0;
@@ -233,7 +222,8 @@
     &__title {
       font-size: 30px;
       margin-bottom: 19px;
-      line-height: calc(48 / 30);
+      line-height: 1.6;
+
     }
     &__text {
       margin-bottom: 29px;
