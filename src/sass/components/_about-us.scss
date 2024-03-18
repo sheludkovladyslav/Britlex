@@ -11,6 +11,7 @@
     color: $colorTextSecondary;
     margin-bottom: 40px;
     text-align: center;
+    line-height: calc(20 / 13);
   }
   &__container {
     margin: 0 auto;
@@ -31,6 +32,10 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    transition: transform 250ms ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
   &__count {
     font-weight: 600;
