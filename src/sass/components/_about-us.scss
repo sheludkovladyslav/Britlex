@@ -5,7 +5,7 @@
     font-size: 24px;
     margin-bottom: 24px;
     text-align: center;
-    line-height: 333%;
+    line-height: 3.3;
   }
   &__text {
     color: $colorTextSecondary;
@@ -46,7 +46,7 @@
   .about-us {
     &__title {
       font-size: 30px;
-      line-height: 267%;
+      line-height: 2.6;
       margin-bottom: 23px;
     }
     &__text {
@@ -86,7 +86,7 @@
 @media (min-width: 767px) {
   .about-us {
     &__title {
-      margin-bottom: 30px;
+      margin-bottom: 0;
       text-align: left;
     }
     &__text {
@@ -139,7 +139,7 @@
 @media (min-width: 992px) {
   .about-us {
     &__title {
-      line-height: 222%;
+      line-height: 2.2;
       font-size: 36px;
       margin-bottom: 13px;
     }
@@ -178,7 +178,7 @@
   .about-us {
     &__title {
       font-size: 48px;
-      line-height: 167%;
+      line-height: 1.6;
       margin-bottom: 23px;
     }
     &__text {
